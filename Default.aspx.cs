@@ -316,7 +316,7 @@ public partial class _Default : System.Web.UI.Page
             client.Connect("pop.gmail.com", 995, true);
 
             // Authenticate ourselves towards the server
-            client.Authenticate("telkomnotification@gmail.com", "notific@tion");
+            client.Authenticate("telkomnotification@gmail.com", "");
 
             // Get the number of messages in the inbox
                 int messageCount = client.GetMessageCount();
